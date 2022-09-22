@@ -1,11 +1,5 @@
-echo 'Se inicio el pipeline'
-
-
-
 pipeline {
    agent any
-
-
 
 stages {
     stage('Run gcloud') {
@@ -28,5 +22,3 @@ stages {
     
 }
 }
-
-echo 'Fin del pipeline'
